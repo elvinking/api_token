@@ -3,3 +3,8 @@ __pycache__/
 build/
 dist/
 .venv/
+
+# локальные секреты — токен не должен попадать в репозиторий
+config.json
+.env
+*.token
